@@ -1,0 +1,767 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assest/css/app.css">
+    <title>Muki</title>
+</head>
+<body>
+<!--<div class="preloaderdiv">-->
+
+<!--<div class="preloader">-->
+<!--    <span></span>-->
+<!--    <span></span>-->
+<!--    <span></span>-->
+<!--</div>-->
+<!--</div>-->
+<div class="container-fluid" id="main">
+    <div class="row">
+        <nav class="navbar navbar-expand-lg navbar-light  shadow-sm px-4 position-fixed w-100 bg-primary  ">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bolder fs-4" href="#">Muki</a>
+                <div class="ms-auto d-block d-md-block d-lg-none ">
+
+                    <ul class="navbar-nav me-auto mt-sm-3 mt-md-3 mt-lg-0 mt-xl-0">
+                        <li class="nav-item ">
+
+                            <button class="btn  position-relative" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                                <i class="fas fa-cart-plus d-flex justify-content-around align-items-center">
+                                    <p class="badge bg-dark position-absolute  top-50 start-25 translate-middle  cartBadge align-text-top ">0</p>
+                                </i>
+
+                                <!--                                        <i class="fas fa-cart-plus"></i> <span class="position-absolute top-0 cartBadge start-100 translate-middle badge rounded-pill bg-secondary">0</span>-->
+
+                            </button>
+
+                        </li>
+                    </ul>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarColor03">
+                   <div class="nav__menu" id="nav__menu">
+                       <ul class="navbar-nav me-auto">
+                           <li class="nav-item">
+                               <a class="nav-link nav__active" href="#home">Home
+<!--                                   <span class="visually-hidden">(current)</span>-->
+                               </a>
+                           </li>
+                           <li class="nav-item">
+                               <a class="nav-link" href="#new-product">New products</a>
+                           </li>
+                           <li class="nav-item">
+                               <a class="nav-link" href="#feature-product">Featured products</a>
+                           </li>
+                           <li class="nav-item">
+                               <a class="nav-link" href="#testimonial">Testimonial</a>
+                           </li>
+                           <li class="nav-item">
+                               <a class="nav-link" href="#blog">Blog</a>
+                           </li>
+                           <li class="nav-item">
+                               <a class="nav-link" href="#contact">contact</a>
+                           </li>
+
+
+                       </ul>
+<!--                       <ul class="navbar-nav ms-auto">-->
+<!--                           <li class="nav-item">-->
+<!--                               myCart-->
+<!--                           </li>-->
+<!--                       </ul>-->
+
+
+                   </div>
+                    <div class="ms-auto d-none d-md-none d-lg-block ">
+
+                        <ul class="navbar-nav me-auto mt-sm-3 mt-md-3 mt-lg-0 mt-xl-0">
+                            <li class="nav-item ">
+
+                                <button class="btn  position-relative" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                                    <i class="fas fa-cart-plus d-flex justify-content-around align-items-center">
+                                        <p class="badge bg-dark position-absolute  top-0 start-100 translate-middle  cartBadge-lg align-text-top ">0</p>
+                                    </i>
+
+                                    <!--                                        <i class="fas fa-cart-plus"></i> <span class="position-absolute top-0 cartBadge start-100 translate-middle badge rounded-pill bg-secondary">0</span>-->
+
+                                </button>
+
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+        </nav>
+
+        <section class="section home p-0" id="home">
+            <div id="carouselExampleIndicators" class="carousel  p-0 slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner bg-primary">
+                    <div class="carousel-item active">
+                        <div class=" bg-primary p-5 my-4">
+
+                            <div class="container mt-4">
+                                <div class="row">
+                                    <div class="col-12 col-lg-6 position-relative h-100">
+                                        <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg" class="w-100 position-absolute " style="z-index: 1;">
+                                            <path class="" id="blob" d="M479.5,287Q465,324,449.5,358.5Q434,393,408.5,423Q383,453,344.5,461.5Q306,470,268.5,477.5Q231,485,192,478Q153,471,118.5,450.5Q84,430,61.5,397Q39,364,29.5,326Q20,288,20,250Q20,212,28,173Q36,134,62,104Q88,74,119,48.5Q150,23,190,18Q230,13,269.5,15Q309,17,343.5,35.5Q378,54,412,76Q446,98,456.5,137Q467,176,480.5,213Q494,250,479.5,287Z"style="fill: #ffffff78" ></path>
+                                        </svg>
+                                        <div class="d-flex justify-content-center">
+                                            <img src="./images/coverA.png" alt="" class="w-75 coverA1 wow animate__zoomIn animate__slower position-relative" style="z-index: 2">
+
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center">
+
+                                        <div class="row justify-content-center align-items-center">
+                                            <div class="col-12 col-lg-10 ">
+                                                <h3 class="wow animate__slower animate__backInDown">Feel your</h3>
+                                                <div class="display-1 fw-bolder wow animate__slideInLeft animate__slower mb-3">JACKET</div>
+                                                <p class="wow animate__slideInRight  text-black-50 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, architecto quisquam saepe sint voluptates voluptatum?
+                                                </p>
+                                            </div>
+                                            <div class="col-3 col-lg-4">
+                                                <a class="btn btn-outline-dark text-end wow animate__bounceIn" href="#new-product">Shop Now</a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class=" bg-primary p-5 my-4">
+
+                            <div class="container mt-4">
+                                <div class="row carousel2">
+
+                                    <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center ">
+
+                                        <div class="row justify-content-center align-items-center text-end">
+                                            <div class="col-12 col-lg-10 ">
+                                                <h3 class="wow animate__slower animate__backInDown">Feel your</h3>
+                                                <div class="display-1 fw-bolder wow animate__slideInLeft animate__slower mb-3">JACKET</div>
+                                                <p class="wow animate__slideInRight  text-black-50 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, architecto quisquam saepe sint voluptates voluptatum?
+                                                </p>
+                                            </div>
+                                            <div class="col-3 col-lg-4">
+                                                <button class="btn btn-outline-dark text-end wow animate__bounceIn">Shop Now</button>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-lg-6 position-relative h-100">
+                                        <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg" class="w-100 position-absolute " style="z-index: 1;">
+                                            <path class="" id="blob" d="M479.5,287Q465,324,449.5,358.5Q434,393,408.5,423Q383,453,344.5,461.5Q306,470,268.5,477.5Q231,485,192,478Q153,471,118.5,450.5Q84,430,61.5,397Q39,364,29.5,326Q20,288,20,250Q20,212,28,173Q36,134,62,104Q88,74,119,48.5Q150,23,190,18Q230,13,269.5,15Q309,17,343.5,35.5Q378,54,412,76Q446,98,456.5,137Q467,176,480.5,213Q494,250,479.5,287Z"style="fill: #ffffff78" ></path>
+                                        </svg>
+                                        <div class="d-flex justify-content-center">
+                                            <img src="./images/coverB.png" alt="" class="w-50 coverA1 wow animate__zoomIn animate__slower position-relative" style="z-index: 2">
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </section>
+
+
+
+
+
+        <section class="p-0">
+
+
+            <section class="section-three section new position-relative " id="new-product">
+                <div class="container  ">
+
+                    <div class="d-flex justify-content-center ">
+                        <h5 class=" text-center px-3 fw-bold shadow-sm category my-5 wow animate__lightSpeedInRight">What's New</h5>
+
+                    </div>
+                    <div class="row d-flex justify-content-around  ">
+
+
+
+                        <nav class="mt-5">
+                            <div class="nav nav-tabs d-flex flex-nowrap justify-content-center" id="nav-tab" role="tablist">
+                                <button class="nav-link active nav_tab" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Top</button>
+                                <button class="nav-link nav_tab" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Dress</button>
+                                <button class="nav-link nav_tab" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Jeans & Pants</button>
+                            </div>
+                        </nav>
+                        <div class="tab-content " id="nav-tabContent">
+                            <div class="tab-pane nav_tab_body fade wow animate__zoomIn overflow-hidden show active " id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+
+                                <div class="container-fluid mt-4 ">
+                                    <div class="row   " id="new-arrival" >
+
+
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="tab-pane nav_tab_body fade overflow-hidden" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+
+                                <div class="container-fluid mt-4 ">
+                                    <div class="row" id="dress" >
+
+
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="tab-pane nav_tab_body fade overflow-hidden" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                                <div class="container-fluid mt-4">
+                                    <div class="row " id="jean" >
+
+
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+<!--                    <div class="custom-shape-divider-bottom-1643896183 mt-5">-->
+<!--                        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">-->
+<!--                            <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>-->
+<!--                        </svg>-->
+<!--                    </div>-->
+                </div>
+            </section>
+            <section class="section-4 m-0 p-0 pt-5 bg-primary">
+               <div class="container">
+                   <div class="row justify-content-center p-4 ">
+                       <div class="col-12 col-md-6   col-lg-3 mb-3 ms-3 poster1 bg-primary wow animate__flipInX animate__faster">
+                           <div class=" d-flex justify-content-center align-items-center   p-3">
+                               <img src="./images/sweater-poster.png" alt="" class="poster1-img w-50 pt-3 ">
+                               <div>
+                                   <h3 class="fw-bolder text-black">Sweater <br><span class="">Collections</span></h3>
+                                   <button type="button" class="btn btn-outline-dark mt-3">Shop >></button>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="col-12 col-md-6   col-lg-3 mb-3 ms-3 poster1 m  mx-lg-3 bg-primary wow animate__flipInX animate__fast ">
+                           <div class=" d-flex justify-content-center align-items-center p-3 ">
+                               <img src="./images/dress-poster.png" alt="" class="poster1-img w-50 ">
+                               <div>
+                                   <h3 class="fw-bolder text-black">Dress <br><span class="">Collections</span></h3>
+                                   <button type="button" class="btn btn-outline-dark mt-3">Shop >></button>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="col-12 col-md-6   col-lg-3 mb-3 ms-3 poster1 bg-primary px-3 wow animate__flipInX animate__slow ">
+                           <div class=" d-flex justify-content-center align-items-center p-3 ">
+                               <img src="./images/poster3.png" alt="" class="poster1-img w-50 ">
+                               <div>
+                                   <h3 class="fw-bolder text-black"> <br><span class="">Up to 50%</span></h3>
+                                   <button type="button" class="btn btn-outline-dark ">Shop >></button>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+            </section>
+            <section class="section-five section feature bg-primary position-relative" id="feature-product">
+                <div class="container ">
+
+                    <div class="d-flex justify-content-center p-5">
+                        <h5 class=" text-center px-3 fw-bold shadow-sm category my-5 wow animate__lightSpeedInRight">Feature products</h5>
+
+                    </div>
+
+<!--                    <div class="custom-shape-divider-top-1643896361">-->
+<!--                        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">-->
+<!--                            <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>-->
+<!--                        </svg>-->
+<!--                    </div>-->
+                    <div class="row d-flex justify-content-around">
+
+
+
+                        <nav>
+                            <div class="nav nav-tabs d-flex justify-content-center" id="nav-feature-tab" role="tablist">
+                                <button class="nav-link active nav_tab" id="nav-feature-shirt-tab" data-bs-toggle="tab" data-bs-target="#nav-shirt" type="button" role="tab" aria-controls="nav-shirt" aria-selected="true">Top</button>
+                                <button class="nav-link nav_tab" id="nav-feature-dress-tab" data-bs-toggle="tab" data-bs-target="#nav-dress" type="button" role="tab" aria-controls="nav-dress" aria-selected="false">Dress</button>
+                                <button class="nav-link nav_tab" id="nav-feature-jean-tab" data-bs-toggle="tab" data-bs-target="#nav-jean" type="button" role="tab" aria-controls="nav-jean" aria-selected="false">Jeans & Pants</button>
+                            </div>
+                        </nav>
+                        <div class="tab-content" id="nav-feature-tabContent">
+                            <div class="tab-pane nav_tab_body fade wow animate__zoomIn  overflow-hidden show active" id="nav-shirt" role="tabpanel" aria-labelledby="nav-feature-shirt-tab">
+
+                                <div class="container-fluid mt-4 ">
+                                    <div class="row " id="feature_shirt" >
+
+
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="tab-pane nav_tab_body fade  overflow-hidden" id="nav-dress" role="tabpanel" aria-labelledby="nav-feature-dress-tab">
+
+                                <div class="container-fluid mt-4 ">
+                                    <div class="row " id="feature_dress" >
+
+
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="tab-pane nav_tab_body fade  overflow-hidden" id="nav-jean" role="tabpanel" aria-labelledby="nav-feature-jean-tab">
+                                <div class="container-fluid mt-4 ">
+                                    <div class="row " id="feature_jean" >
+
+
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="custom-shape-divider-bottom-1643898632">
+                        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                            <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+                        </svg>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="section-six section_testimonial section bg-primary position-relative" id="testimonial">
+                <div class="custom-shape-divider-top-1644677014">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                        <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+                    </svg>
+                </div>
+                <div class="container">
+
+                    <div class="row  d-flex justify-content-center align-items-center p-5">
+
+                        <div class="d-flex justify-content-center">
+                            <h5 class=" text-center px-3  fw-bold shadow-sm category wow animate__lightSpeedInRight">Testimonial</h5>
+
+                        </div>
+
+
+
+
+                        <div class="testimonialDiv wow animate__pulse  mt-5">
+                            <div class="swiper mySwiper w-100">
+                                <div class="swiper-wrapper ">
+                                    <div class="swiper-slide " >
+
+                                        <div class="testimonialBox">
+                                            <div class="layer"></div>
+                                            <div class="content ">
+                                                <div class="d-flex justify-content-end">
+                                                    <img src="./images/quote.png" alt="" width="30px" class="opacity-50">
+                                                </div>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, consectetur cupiditate delectus ea sed sint.</p>
+
+                                                <div class="details">
+                                                    <div class="imgBox">
+                                                        <img src="./images/user2.jpg" alt="">
+                                                    </div>
+                                                    <h3 class="fw-bold">Rosie</h3>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide" >
+
+                                        <div class="testimonialBox">
+                                            <div class="layer"></div>
+                                            <div class="content">
+                                                <div class="d-flex justify-content-end">
+                                                    <img src="./images/quote.png" alt="" width="30px" class="opacity-50">
+                                                </div>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, consectetur cupiditate delectus ea sed sint.</p>
+                                                <div class="details">
+                                                    <div class="imgBox">
+                                                        <img src="./images/user3.jpg" alt="">
+                                                    </div>
+                                                    <h3 class="fw-bold">Bam Bam</h3>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide" >
+
+                                        <div class="testimonialBox">
+                                            <div class="layer"></div>
+                                            <div class="content">
+                                                <div class="d-flex justify-content-end">
+                                                    <img src="./images/quote.png" alt="" width="30px" class="opacity-50">
+                                                </div>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, consectetur cupiditate delectus ea sed sint.</p>
+
+                                                <div class="details">
+                                                    <div class="imgBox">
+                                                        <img src="./images/user1.jpg" alt="">
+                                                    </div>
+                                                    <h3 class="fw-bold">Ariel</h3>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </section>
+
+
+            <section class="section-seven section_blog section bg-primary min-vh-100" id="blog" >
+               <div class="container">
+                   <div class="d-flex justify-content-center p-5">
+                       <h5 class=" text-center px-3 fw-bold shadow-sm category my-5 wow animate__lightSpeedInRight">From The Blog</h5>
+
+                   </div>
+                   <div class="row d-flex justify-content-center mt-5 p-5">
+                       <div class="col-12 d-flex justify-content-center  col-md-6 col-lg-4">
+                          <div class="blog-card  d-flex flex-column wow animate__slideInDown animate__faster px-3 ">
+                              <div class="imgBox text-center "    >
+                                   <img src="./images/banner3.jpg" alt="" class="w-100">
+                                  <div class="imgBox-content">
+                                      <p class="font-monospace mb-0">A Standard Blog Post</p>
+                                      <div class="dateComment d-flex justify-content-between text-black-50 p-3 small ">
+                                          <p><i class="fas fa-calendar me-2"></i>August 17, 2021</p>
+                                          <p><i class="fas fa-comment me-2"></i>No Comments</p>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="content  ">
+                                  <h4 >A Standard Blog Post</h4>
+                                  <p class="text-black-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur dolor dolores itaque laboriosam quidem. Animi assumenda maxime molestiae numquam vero...
+                                  </p>
+                                  <button class="sale-btn px-3 py-2">Read More</button>
+
+                              </div>
+                          </div>
+                       </div>
+                       <div class="col-12  d-flex justify-content-center col-md-6 col-lg-4">
+                           <div class="blog-card wow animate__slideInDown animate__fast  d-flex flex-column  px-3 ">
+                               <div class="imgBox text-center    ">
+                                   <img src="./images/banner1.jpg" alt="" class="w-100">
+                                   <div class="imgBox-content">
+                                       <p class="font-monospace mb-0">Powerful Page Builder</p>
+                                       <div class="dateComment d-flex justify-content-between text-black-50 p-3 small ">
+                                           <p><i class="fas fa-calendar me-2"></i>December 1, 2021</p>
+                                           <p><i class="fas fa-comment me-2"></i>No Comments</p>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="content  ">
+                                   <h4 >Powerful Page Builder</h4>
+                                   <p class="text-black-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur dolor dolores itaque laboriosam quidem. Animi assumenda maxime molestiae numquam vero...
+                                   </p>
+                                   <button class="sale-btn px-3 py-2">Read More</button>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="col-12  d-flex justify-content-center col-md-6 col-lg-4">
+                           <div class="blog-card  wow animate__slideInDown animate__slow d-flex flex-column  px-3 ">
+                               <div class="imgBox text-center    ">
+                                   <img src="./images/eco.jpg" alt="" class="w-100">
+                                   <div class="imgBox-content">
+                                       <p class="font-monospace mb-0">WooCommerce Support</p>
+                                       <div class="dateComment d-flex justify-content-between text-black-50 p-3 small ">
+                                           <p><i class="fas fa-calendar me-2"></i>February 4, 2022</p>
+                                           <p><i class="fas fa-comment me-2"></i>No Comments</p>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="content text-center  ">
+                                    <h4 >WooCommerce Support</h4>
+                                   <p class="text-black-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur dolor dolores itaque laboriosam quidem. Animi assumenda maxime molestiae numquam vero...
+                                   </p>
+                                   <button class="sale-btn px-3 py-2">Read More</button>
+
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+            </section>
+
+            <section class="section-eight bg-primary  vh-100" id="contact">
+                <div class="container mb-5">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-12 col-md-6 d-flex justify-content-around align-items-center wow animate__slideInRight">
+                            <div class="w-100 position-relative">
+                                <div class="d-flex justify-content-center p-5">
+                                    <h5 class =" text-center px-3 fw-bold shadow-sm category ">Trendy Updates</h5>
+
+                                </div>
+                                <p class="text-center fs-5 text-black-50 ">Subscribe and get notified at first on the latest updates and offers!</p>
+
+                                    <img src="./images/arrow2.png " alt="" class="w-50 arrow position-absolute wow animate__slideInDown animate__slower d-none">
+
+                            </div>
+                        </div>
+                        
+
+                        <div class="col-12 col-md-6 d-flex justify-content-center">
+                           <div class="mailbox d-flex p-4 justify-content-center wow animate__slideInLeft align-items-center mt-4">
+                               <div class="">
+                                   <h5 class="mb-5">Our NewsLetter</h5>
+
+                                   <div class="form-floating mb-3">
+                                       <input type="text" class="form-control" id="name" placeholder="full Name">
+                                       <label for="name">Full Name</label>
+                                   </div>
+                                   <div class="form-floating mb-3  ">
+                                       <input type="email" class="form-control" id="email" placeholder="Email">
+                                       <label for="email">Email</label>
+                                   </div>
+                                   <div class=" mb-5">
+                                       <input type="button" class="mailButton" value="Subscribe">
+
+                                   </div>
+
+                               </div>
+                           </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="container-fluid bg-success p-5">
+                    <div class="row my-4 ">
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <h2 class="mb-4">MUKI</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aspernatur cupiditate earum molestias officia, pariatur quam quis similique unde velit.
+                            </p>
+
+                            <div class="icon ">
+                                <a href=""  class="  fa-1x ms-3 text-decoration-none fab fa-facebook"></a>
+                                <a href=""  class="  fa-1x ms-3 text-decoration-none fab fa-instagram"></a>
+                                <a href=""  class="  fa-1x ms-3 text-decoration-none fab fa-twitter"></a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-2">
+                            <h3 class="my-4">Quick Links</h3>
+                            <div class=" links">
+                                <a class="text-decoration-none  fw-bold" href="#home">Home</a>
+                                <br><a class="text-decoration-none fw-bold" href="#new-product">New Product</a>
+                                <br><a class="text-decoration-none  fw-bold" href="#feature-product">Featured product</a>
+                                <br><a class="text-decoration-none  fw-bold" href="#feature-product">Featured product</a>
+                                <br><a class="text-decoration-none  fw-bold" href="#testimonial">Testimonial</a>
+                                <br><a class="text-decoration-none  fw-bold" href="#testimonial">Contact</a>
+
+
+                                <br>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-2 fw-bold">
+                            <h3 class="my-4">Contact Info</h3>
+                            <div class="links ">
+                                <p>Yangon</p>
+                                <p>0976577898</p>
+                                <p>info@muki.com</p>
+                                <p>www.muki.com</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 fw-bold">
+                            <h3 class="my-4">Opening Hours</h3>
+                            <div class="row">
+                                <div class="col-6 col-lg-6">
+                                    <div class="text-black-50">
+                                        <p>Monday</p>
+                                        <p>Tuesday</p>
+                                        <p>Wednesday</p>
+                                        <p>Thursday</p>
+                                        <p>Friday</p>
+                                        <p>Saturday</p>
+                                        <p>Sunday</p>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-lg-6">
+                                    <div class="text-black-50">
+                                        <p>9:00-18:00</p>
+                                        <p>10:00-19:00</p>
+                                        <p>8:00-17:00</p>
+                                        <p>10:00-19:00</p>
+                                        <p>10:00-19:00</p>
+                                        <p>10:00-19:00</p>
+                                        <p>Closed</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </section>
+
+
+
+        </section>
+    </div>
+    <div class="offcanvas offcanvas-end mt-5 bg-primary"  tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header mt-4">
+            <h5 id="offcanvasRightLabel">Your Cart</h5>
+            <button type="button" class=" btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body pb-0" >
+
+                <table class="table text-center">
+                    <tbody id="cart_body"></tbody>
+
+
+                </table>
+
+            <div class="row position-sticky bottom-0 p-2 text-center bg-primary">
+                <div class="col-6">
+                    <h3>Total</h3>
+                </div>
+                <div class="col-6">
+                    <h4 id="getTotal">0</h4>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<script src="./js/index.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="node_modules/swiper/swiper-bundle.min.js"></script>
+<script src="node_modules/wow.js/dist/wow.min.js"></script>
+
+
+<script>
+    var wow = new WOW(
+        {
+
+            boxClass:     'wow',      // animated element css class (default is wow)
+            animateClass: 'animate__animated', // animation css class (default is animated)
+            offset:       250,          // distance to the element when triggering the animation (default is 0)
+            mobile:       true,       // trigger animations on mobile devices (default is true)
+            live:         true,       // act on asynchronously loaded content (default is true)
+            callback:     function(box) {
+                // the callback is fired every time an animation is started
+                // the argument that is passed in is the DOM node being animated
+            },
+            scrollContainer: null,    // optional scroll container selector, otherwise use window,
+            resetAnimation: true,     // reset animation on end (default is true)
+
+        }
+    );
+
+    wow.init();
+
+    var swiper = new Swiper('.mySwiper', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        coverflowEffect: {
+            rotate: 10,
+            stretch: 0,
+            depth: 100,
+            modifier: 3,
+            slideShadows: true,
+        },
+        loop:true,
+
+    });
+
+  //   let preloaderdiv=document.querySelector('.preloaderdiv');
+  //   let main=document.getElementById('main');
+  //
+  //   function loader(){
+  //       setInterval(()=>{
+  //
+  //           preloaderdiv.style.opacity=0;
+  //           preloaderdiv.style.display='none';
+  //
+  //           main.style.display='block';
+  //
+  //           setInterval(()=>{
+  //               main.style.opacity=1;
+  //           },30)
+  //       },3000)
+  //   }
+  //
+  //
+  // loader();
+
+
+
+
+</script>
+<script>
+
+
+
+
+</script>
+</body>
+</html>
